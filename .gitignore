@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+.env.*.local
+
+# Mac system files
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# log files
+logs
+*.log
+
+# coverage reports
+coverage/
+*.lcov
+
+# build outputs (if any)
+build/
+tmp/
+temp/
+*.cache
+
+# VS Code settings
+.vscode/
+
+# MongoDB and DB files
+backend/mongo-data/
+*.mongodb
+
+# ReactJS
+# dependencies
+student-management/node_modules/
+# production
+student-management/build/
+# misc
+student-management/.DS_Store
+student-management/.env
+
+# testing
+student-management/coverage/
+student-management/jest
+student-management/jest-*
+
+# IDE
+.idea/
+*.swp
+
+# Byebug command history file.
+.byebug_history
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
